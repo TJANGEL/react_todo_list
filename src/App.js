@@ -45,9 +45,9 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state.todos);
     return (
       <div className="App">
+        <Header />
         <Todos
           todos={this.state.todos}
           markComplete={this.markComplete}
